@@ -191,3 +191,36 @@ section meals
 	transform: scale(1.03);
 	opacity:1;
 }
+/*-----how it works-------*/
+.steps-box:first-child {
+	text-align: right;
+	padding-right: 3%;
+	margin-top: 30px;
+}
+.steps-box:last-child {
+	padding-left: 3%;
+	margin-top: 50px;
+}
+.app-screen {
+	max-width: 40%;
+	height: auto;
+}
+.work-step {
+	margin-bottom: 50px;
+	
+}
+.work-step div {
+	color: #ff7675;
+	border: 2px solid #0000005c;
+	display: inline-block;
+	width: 50px;
+	height: 55px;
+	text-align: center;
+	padding: 6px;
+	font-size: 150%;
+	   margin-right: 15px;
+}
+.work-step p {
+	display: inline-block;
+	width: 85%;
+}
