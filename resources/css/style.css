@@ -108,7 +108,7 @@ a:hover, a:active {
 	margin-bottom: 30px;
 }
 /*--------BUTTONS-------*/
-.btn:link , .btn:visited {
+.btn:link , .btn:visited, input[type=submit] {
 	display: inline-block;
 	padding: 10px 30px; 
 	color: #fff;
@@ -119,14 +119,14 @@ a:hover, a:active {
 
 } 
 
-.btn-full:link, .btn:visited {
+.btn-full:link, .btn:visited, input[type=submit] {
 	background-color: #ff7675;
 	margin-right: 20px;
 }
 .btn-ghost:link, .btn-ghost:visited  {
 	color: #ff7675;
 }
-.btn:hover, .btn:active {
+.btn:hover, .btn:active, input[type=submit]:hover, input[type=submit]:active {
 	background-color: #ff7675;
 	border: 1px solid #ff7675;
 	color: #fff;
@@ -362,3 +362,36 @@ cite img {
 .plan-box div:first-child {
 	background-color: #f4f4f457;
 }
+
+/*--------------------------
+-----------form----------
+------------------------*/
+
+.contact-form {
+	width: 60%;
+	margin: 0 auto;
+}
+input[type=text], input[type=email], select, textarea {
+	padding: 7px;
+	width: 80%;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+textarea{
+	height: 100px;
+}
+input[type=submit] {
+	cursor: pointer;
+}
+input[type=checkbox] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+*:focus {outline: none;}
+select {
+	background-color: #f4ecec;
+}
+/*--------------------------
+----footer----------------
+--------------------------*/
