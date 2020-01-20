@@ -395,3 +395,21 @@ select {
 /*--------------------------
 ----footer----------------
 --------------------------*/
+footer {
+	background-color: #645a5aeb;
+	position: relative;
+}
+.footer-nav {
+list-style: none;
+position: absolute;
+left: 10%;
+}
+.social-links {
+	list-style: none;
+	position: absolute;
+	right: 10%;
+}
+.social-links li, .footer-nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
