@@ -1,0 +1,27 @@
+/*ipad and smaller computers*/
+/*big tablets to 1200px (widths smaller than 1140px row)*/
+@media (max-width: 1200px) {
+
+}
+
+
+
+/*small tablet to big tablet ipad in potrait mode (landscape view)*/
+@media (max-width: 1023px) {
+
+}
+
+
+
+/*small phones to tablet*/
+@media (max-width: 767px) {
+
+}
+
+
+
+
+/*small phones*/
+@media (max-width: 480px) {
+
+}
