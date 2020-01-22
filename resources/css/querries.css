@@ -14,7 +14,15 @@
 
 /*small tablet to big tablet ipad in potrait mode (landscape view)*/
 @media (max-width: 1023px) {
-
+	body  {
+		font-size: 18px;
+	}
+	section {
+		padding: 60px 0;
+	}
+	.long-copy {
+    width: 80%;
+    margin-left: 10%;
 }
 
 
