@@ -1,7 +1,13 @@
 /*ipad and smaller computers*/
 /*big tablets to 1200px (widths smaller than 1140px row)*/
 @media (max-width: 1200px) {
-
+	.hero-text-box {
+	width: 100%;
+	padding:0 3%;
+}
+.row {
+	padding:0 3%;
+}
 }
 
 
