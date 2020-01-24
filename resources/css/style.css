@@ -148,6 +148,7 @@ header {
 	background-position: center;
 	background-attachment: fixed;
 }
+
 .hero-text-box {
 	position: absolute;
 	width: 1140px;
@@ -169,7 +170,7 @@ header {
 .main-nav {
 	list-style: none;
 	float: right;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 .main-nav li {
 	display: inline-block;
@@ -187,6 +188,10 @@ header {
 }
 .main-nav li a:hover, .main-nav li a:active {
 	border-bottom: 2.5px solid #ff7675;
+}
+/*---hamburger menu--------*/
+.main-nav label, #hamburger {
+  display: none;
 }
 /*---------------------------------
 section meals
@@ -253,7 +258,7 @@ section meals
 	font-size: 150%;
 	   margin-right: 15px;
 	       vertical-align: middle;
-    margin-top: -27px;
+    margin-top: -27gipx;
 }
 .work-step p {
 	display: inline-block;
