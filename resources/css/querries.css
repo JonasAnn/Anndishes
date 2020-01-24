@@ -24,8 +24,28 @@
     width: 80%;
     margin-left: 10%;
 }
-
-
+.app-screen {
+    max-width: 55%;
+    }
+.work-step {
+	margin-bottom: 12%;
+	
+}
+.work-step div {
+	width: 45px;
+	height: 50px;
+	padding: 5px;
+	font-size: 130%;
+}
+.work-step p {
+    width: 79%;
+    font-size: 100%;
+ }
+ .btn-app img {
+	margin-top: 10px;
+	height: 45px;
+}
+}
 
 /*small phones to tablet*/
 @media (max-width: 767px) {

@@ -228,6 +228,7 @@ section meals
 .section-steps {
 	background-color: #f4f4f4;
 }
+
 .steps-box:first-child {
 	text-align: right;
 	padding-right: 3%;
@@ -235,7 +236,7 @@ section meals
 }
 .steps-box:last-child {
 	padding-left: 3%;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 .app-screen {
 	max-width: 40%;
