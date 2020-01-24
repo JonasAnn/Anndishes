@@ -91,6 +91,12 @@ body  {
 	height: 90px;
 	margin-top: 10px;
 }
+		.btn-full:link, .btn:visited {
+    margin-right: 10px;
+}
+.btn:link, .btn:visited, input[type=submit] {
+    padding: 10px 20px;
+}
 /*--------- for hamburger--------*/
 .main-nav label {
 	display: inline-block;
@@ -180,4 +186,5 @@ h2::after{
 		section {
 			padding: 20px 0;
 		}
+
 }
