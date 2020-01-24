@@ -171,13 +171,14 @@ header {
 	list-style: none;
 	float: right;
 	margin-top: 30px;
+	background-color: green;
 }
-.main-nav li {
+.main-nav-ul li {
 	display: inline-block;
 	margin-left: 40px;
 }
 
-.main-nav li a:link, .main-nav li a:visited {
+.main-nav-ul li a:link, .main-nav li a:visited {
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
@@ -186,7 +187,7 @@ header {
 	transition: border-bottom 0.5s;
 	padding-bottom: 8px;
 }
-.main-nav li a:hover, .main-nav li a:active {
+.main-nav-ul li a:hover, .main-nav li a:active {
 	border-bottom: 2.5px solid #ff7675;
 }
 /*---hamburger menu--------*/
@@ -258,7 +259,7 @@ section meals
 	font-size: 150%;
 	   margin-right: 15px;
 	       vertical-align: middle;
-    margin-top: -27gipx;
+    margin-top: -27px;
 }
 .work-step p {
 	display: inline-block;
