@@ -110,8 +110,8 @@ body  {
 	margin-left: 0;
 		border-bottom: 1px solid #ff7675;
 		border-left: 1px solid #ff7675;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
 			padding-left: 10px;
 		border-radius: 3px;
 
@@ -122,10 +122,13 @@ body  {
 .main-nav ul {
     display: none;
   }
+.main-nav input[type=checkbox]:checked + label{
+  color: red;
+  }
 .main-nav input:checked ~ ul {
     display: block;
   }
-
+.main-nav input[type=checkbox]:checked .main-nav label[for="hamburger"] { font-size: 200%; color: #777; }
 /*------hamburger ended----*/
 h1{
 font-size: 180%;
@@ -188,7 +191,4 @@ h2::after{
 		section {
 			padding: 20px 0;
 		}
-h3 {
-font-size: 85%;
-}
 }
