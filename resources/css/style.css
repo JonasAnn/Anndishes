@@ -205,21 +205,17 @@ section meals
 	overflow: hidden;
 	background-color: #000;
 }
-.meals-showcase figure {
-	max-width: 100%;
-	max-height: 300px;
-}
 
 .meals-showcase li img {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
-	transform: scale(1.50);
+	transform: scale(2);
 	transition: transform 0.5s, opacity 0.5s; 
 	opacity:0.8 ; 
 }
 .meals-showcase li img:hover {
-	transform: scale(1.03);
+	transform: scale(1.50);
 	opacity:1;
 }
 /*-----------------------------
@@ -257,7 +253,7 @@ section meals
 	font-size: 150%;
 	   margin-right: 15px;
 	       vertical-align: middle;
-    margin-top: -22px;
+    margin-top: -27px;
 }
 .work-step p {
 	display: inline-block;
@@ -428,7 +424,7 @@ text-align: center;
 .footer-nav-div{
 	display: flex;
 justify-content: space-evenly;
-max-width: 70%;
+max-width: 90%;
 }
 .social-links {
 	list-style: none;
