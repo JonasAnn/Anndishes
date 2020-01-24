@@ -82,6 +82,7 @@ body  {
 	}
 .col {
 		width: 100%;
+		margin: 0 0 3% 0;
 	}
 .logo {
 	height: 50px;
@@ -128,11 +129,35 @@ h2::after{
     padding-right: 0;
     margin-top: 20px;
 }
-
-
+.work-step {
+    margin-bottom: 8%;
+}
+.work-step div {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    font-size: 100%;
+}
+.icon-small {
+	width: 40px;
+	font-size: 120%;
+	margin-right:10px;
+}
+.city-feature {
+		font-size: 130%;
+	}
+.cities-img {
+	padding-bottom: 15px;
+}
+.cities h3 {
+		font-size: 160%;
+}
+	}
 
 
 /*small phones*/
 @media (max-width: 480px) {
-
+		section {
+			padding: 20px 0;
+		}
 }
