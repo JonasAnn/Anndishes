@@ -45,9 +45,31 @@
 	margin-top: 10px;
 	height: 45px;
 }
+.icon-small {
+	width: 13px;
+	font-size: 100%;
+	margin-right: 6px;
+}
+.city-feature {
+	font-size: 81%;
+}
+.cities h3 {
+		font-size: 93%;
+}
+blockquote {
+	font-size: 90%;
+}
+.plan-box {
+	width: 100%;
+	margin-left: 0;
+	font-size: 80%;
+	}
+.plan-price {
+	font-size: 250%;
+}
 }
 
-/*small phones to tablet*/
+/*small phones to small tablet*/
 @media (max-width: 767px) {
 
 }
