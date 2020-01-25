@@ -240,8 +240,11 @@ section meals
 	margin-top: 40px;
 }
 .app-screen {
-	max-width: 40%;
+	max-width: 75%;
 	height: auto;
+}
+.app-screen-2 {
+	display: none;
 }
 .work-step {
 	margin-bottom: 50px;

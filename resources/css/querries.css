@@ -142,8 +142,12 @@ h2::after{
     margin-left: 0;
 }
 .app-screen {
-    max-width: 40%;
+   display: none;
     }
+ .app-screen-2 {
+ 	display: inline-block;
+ 	max-width: 40%;
+ }
  .steps-box:first-child {
     text-align: center;
     padding-right: 0;
