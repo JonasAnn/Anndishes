@@ -108,13 +108,7 @@ body  {
 .main-nav li {
 	display: block;
 	margin-left: 0;
-		border-bottom: 1px solid #ff7675;
-		border-left: 1px solid #ff7675;
-		padding-top: 5px;
-		padding-bottom: 5px;
-			padding-left: 10px;
-		border-radius: 3px;
-
+		padding: 5px 0;
 }
 .main-nav li a:link, .main-nav li a:visited {
 	border-bottom: none;
@@ -128,7 +122,8 @@ body  {
 .main-nav input:checked ~ ul {
     display: block;
   }
-.main-nav input[type=checkbox]:checked .main-nav label[for="hamburger"] { font-size: 200%; color: #777; }
+label[for="hamburger"] { font-size: 150%;}
+
 /*------hamburger ended----*/
 h1{
 font-size: 180%;
