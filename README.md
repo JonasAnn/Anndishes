@@ -1,9 +1,23 @@
 # Anndishes
 
-Official Website for Anndishes
+Dummy website build to practice hypertext markup language (HTML) and cascading styles (CSS) skills.
 
-To View
+[Preview Project](https://jonasann.github.io/Anndishes/)
 
-[Click Here](https://jonasann.github.io/Anndishes/)
+## Language Used
 
-Thanks
+- HTML
+- CSS
+
+## External Vendors Used
+
+1. [Narmalize CSS](https://necolas.github.io/normalize.css/)
+
+## Usage
+
+- Download normalize.css
+- Connect to index.html
+
+### Commit Guide
+
+Check here for commit guide
