@@ -11,7 +11,7 @@ Dummy website build to practice hypertext markup language (HTML) and cascading s
 
 ## External Vendors Used
 
-1. [Narmalize CSS](https://necolas.github.io/normalize.css/)
+1. [Normalize CSS](https://necolas.github.io/normalize.css/)
 
 ## Usage
 
